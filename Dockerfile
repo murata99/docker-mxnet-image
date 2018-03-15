@@ -1,7 +1,7 @@
 FROM jupyter/datascience-notebook
 
-USER root
-WORKDIR /notebooks
+# USER root
+# WORKDIR /notebooks
 
 RUN apt-get update && apt-get install -y cmake
 
